@@ -1,0 +1,30 @@
+{
+    "acceptResponse" : true,
+    "formTemplate" : {
+    "title" : "Personal Information",
+    "questions" : {
+        "1" : {
+            "label" : "Enter Name",
+            "type" : "text-short",
+            "required" : true
+        },
+        "2" : {
+            "label" : "Enter Age",
+            "type" : "num-int",
+            "required" : true
+        },
+        "3" : {
+            "label" : "Select Gender",
+            "type" : "multi-choice-single-select",
+            "options" : ["Male", "Female", "Other"],
+            "required" : false
+        },
+        "4" : {
+            "label" : "Select preferences",
+            "type" : "multi-choice-multi-select",
+            "options" : ["SDE", "Networks", "AI"],
+            "required" : false
+        }
+    }
+}
+}
